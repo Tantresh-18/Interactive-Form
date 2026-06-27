@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>0(T) Style Form</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <form id="form">
+
+        <!-- STEP 1 -->
+        <div class="step active">
+            <h2>Personal Info</h2>
+
+            <input type="text" placeholder="Full Name" id="name">
+            <small id="nameError"></small>
+
+            <input type="email" placeholder="Email" id="email">
+            <small id="emailError"></small>
+
+            <button type="button" onclick="nextStep()">Next</button>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="step">
+            <h2>Contact Details</h2>
+
+            <input type="text" placeholder="Phone Number" id="phone">
+            <small id="phoneError"></small>
+
+            <input type="text" placeholder="City">
+            
+            <div class="btn-group">
+                <button type="button" onclick="prevStep()">Back</button>
+                <button type="button" onclick="nextStep()">Next</button>
+            </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="step">
+            <h2>Security</h2>
+
+            <input type="password" placeholder="Password" id="password">
+            <small id="passwordError"></small>
+
+            <input type="password" placeholder="Confirm Password" id="confirm">
+            <small id="confirmError"></small>
+
+            <div class="btn-group">
+                <button type="button" onclick="prevStep()">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
