@@ -1,10 +1,10 @@
-# Task 2: Multi-Step Registration Form
+# Multi-Step Registration Form
 
 An interactive wizard-based registration form ("0(T) Style Form") that splits input fields across three clean sections. The form validates all user input at each stage before allowing progress, enhancing the registration experience.
 
 ---
 
-## 📂 File Directory
+##  File Directory
 
 - [index.html](./index.html): Page structure defining the steps, progress indicators, form fields, and error slots.
 - [style.css](./style.css): Progress bar animations, interactive transitions, button layouts, and styling tokens.
@@ -12,7 +12,7 @@ An interactive wizard-based registration form ("0(T) Style Form") that splits in
 
 ---
 
-## ✨ Features & Functionality
+##  Features & Functionality
 
 1. **Step-by-Step Navigation**:
    - **Step 1: Personal Info** (Name and Email Address)
@@ -32,7 +32,7 @@ An interactive wizard-based registration form ("0(T) Style Form") that splits in
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Structure**: Semantic HTML5 (progress bar wrapper, field groups)
 - **Styling**: Vanilla CSS3 layout elements
@@ -40,6 +40,6 @@ An interactive wizard-based registration form ("0(T) Style Form") that splits in
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 Open [index.html](./index.html) directly in your browser.
